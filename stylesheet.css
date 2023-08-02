@@ -4,27 +4,13 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    /* background-color: antiquewhite; */
     position: relative; 
-     /* static by defult left right top bottom hover koch ni
-      work krega=possition property ki value ke bad hi 
-    left right top bottom hover property work krege
-    position ki value ke basis pr
-    relative =top left property working
-    fixed=scroll krne pr fixed bottom right property lagegi
-    stick=not so use 
-    absolute
-    relative most useful */
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: rgb(167,220,225); */
-    
     background: rgb(238,246,247);
-background: linear-gradient(90deg, rgba(238,246,247,1) 0%, rgba(74,71,74,1) 20%, rgba(225,224,221,1) 41%, rgba(60,62,62,1) 68%, rgba(216,220,230,1) 100%);
+    background: linear-gradient(90deg, rgba(238,246,247,1) 0%, rgba(74,71,74,1) 20%, rgba(225,224,221,1) 41%, rgba(60,62,62,1) 68%, rgba(216,220,230,1) 100%);
     
 }
 .clock{
@@ -32,10 +18,10 @@ background: linear-gradient(90deg, rgba(238,246,247,1) 0%, rgba(74,71,74,1) 20%,
     background-position: center;
     background-size: cover;
     background-color:black ;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-     color: white;
+    color: white;
     border: 10px solid white;
     box-shadow: 0px 0px 30px black;
     font-size: 28px;
@@ -50,9 +36,7 @@ background: linear-gradient(90deg, rgba(238,246,247,1) 0%, rgba(74,71,74,1) 20%,
     position: absolute;
     text-align: center;
     transform: rotate(calc(30deg * var(--p)));
-     inset: 8px;  /*ye inset ghadi ke border se nummber ka distance 
-     h 8px "inset property set the distance btw an  element and the
-      parent class means div or ul ke bich" */
+    inset: 8px;
 }
 .clock ul li span{
     transform: rotate(calc(-30deg * var(--p)));
