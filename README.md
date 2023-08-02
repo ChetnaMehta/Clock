@@ -1,2 +1,2 @@
 # Clock
-Full Source Code for Digital Clock
+Full Source Code for Analog Clock
